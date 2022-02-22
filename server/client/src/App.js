@@ -1,9 +1,13 @@
 import React from 'react';
-import Header from './Header'
+import './global.css';
+import Routes from './routes'
+
 
 export default function App() {
   return (
-    <Header>Client REST Udemy - properties</Header>
+    <div>
+      <Routes/>
+    </div> 
   );
 }
 
